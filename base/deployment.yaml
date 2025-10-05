@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: fastapi
-          image: vineyveanrnd/fastapi-k8s:latest
+          image: vineyveanrnd/fastapi-k8s:v202510051
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
