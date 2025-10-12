@@ -3,4 +3,4 @@ kind: Deployment
 metadata:
   name: fastapi
 spec:
-  replicas: 0   # cold-standby -> zero pods (fast, cheap). Set to 1 for warm standby.
+  replicas: 5   # cold-standby -> zero pods (fast, cheap). Set to 1 for warm standby.
